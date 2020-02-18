@@ -16,6 +16,7 @@ hotkey_array["*o"] := Func("ctrl_right_action")
 hotkey_array["*h"] := Func("backspace_action")
 hotkey_array["*;"] := Func("delete_action")
 hotkey_array["*f"] := Func("equals_action")
+hotkey_array["*space"] := Func("underscore_action")
 
 
 activation_hotkey = *End
@@ -93,3 +94,7 @@ send {blind}=
 return
 }
 
+underscore_action(){
+send {blind}_
+return
+}
