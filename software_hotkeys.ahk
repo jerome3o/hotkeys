@@ -17,6 +17,7 @@ hotkey_array["*h"] := Func("backspace_action")
 hotkey_array["*;"] := Func("delete_action")
 hotkey_array["*f"] := Func("equals_action")
 hotkey_array["*space"] := Func("underscore_action")
+hotkey_array["*c"] := Func("capslock_action")
 
 
 activation_hotkey = *End
@@ -39,9 +40,9 @@ Deactivate(){
 		Hotkey, %key%, %value%, Off
 }
 
-up_action(){ 
-send {blind}{up} 
-return 
+up_action(){
+send {blind}{up}
+return
 }
 
 down_action(){
@@ -96,5 +97,10 @@ return
 
 underscore_action(){
 send {blind}_
+return
+}
+
+capslock_action(){
+send{blind}{CapsLock}
 return
 }
