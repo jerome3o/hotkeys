@@ -16,8 +16,14 @@ hotkey_array["*o"] := Func("ctrl_right_action")
 hotkey_array["*h"] := Func("backspace_action")
 hotkey_array["*;"] := Func("delete_action")
 hotkey_array["*f"] := Func("equals_action")
+hotkey_array["*v"] := Func("capslock_action")
+hotkey_array["*z"] := Func("play_pause_action")
+hotkey_array["*y"] := Func("page_up_action")
+hotkey_array["*n"] := Func("page_down_action")
+hotkey_array["*x"] := Func("volume_down_action")
+hotkey_array["*c"] := Func("volume_up_action")
+
 hotkey_array["*space"] := Func("underscore_action")
-hotkey_array["*c"] := Func("capslock_action")
 
 
 activation_hotkey = *End
@@ -103,4 +109,32 @@ return
 capslock_action(){
 send {blind}{CapsLock}
 return
+}+
+
+play_pause_action(){
+send {blind}{Media_Play_Pause}
+return 
 }
+
+volume_down_action(){
+send {Volume_Down 5}
+return 
+}
+
+volume_up_action(){
+send {Volume_Up 5}
+return
+}
+
+
+page_up_action(){
+send {blind}{PgUp}
+return
+}
+
+page_down_action(){
+send {blind}{PgDn}
+return 
+}
+
+
