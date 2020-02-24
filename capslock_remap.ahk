@@ -101,6 +101,6 @@ return
 }
 
 capslock_action(){
-send{blind}{CapsLock}
+send {blind}{CapsLock}
 return
 }
