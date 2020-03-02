@@ -26,8 +26,8 @@ hotkey_array["*c"] := Func("volume_up_action")
 hotkey_array["*space"] := Func("underscore_action")
 
 
-activation_hotkey = *End
-deactivation_hotkey = *End up
+activation_hotkey = *CapsLock
+deactivation_hotkey = *CapsLock up
 
 
 Hotkey, %activation_hotkey%, Activate
