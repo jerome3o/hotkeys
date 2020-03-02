@@ -109,7 +109,7 @@ return
 capslock_action(){
 send {blind}{CapsLock}
 return
-}+
+}
 
 play_pause_action(){
 send {blind}{Media_Play_Pause}
