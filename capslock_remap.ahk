@@ -26,8 +26,8 @@ hotkey_array["*c"] := Func("volume_up_action")
 hotkey_array["*space"] := Func("underscore_action")
 
 
-activation_hotkey = *CapsLock
-deactivation_hotkey = *CapsLock up
+activation_hotkey = *End
+deactivation_hotkey = *End up
 
 
 Hotkey, %activation_hotkey%, Activate
@@ -109,7 +109,7 @@ return
 capslock_action(){
 send {blind}{CapsLock}
 return
-}+
+}
 
 play_pause_action(){
 send {blind}{Media_Play_Pause}
