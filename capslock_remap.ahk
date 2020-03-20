@@ -22,6 +22,7 @@ hotkey_array["*y"] := Func("page_up_action")
 hotkey_array["*n"] := Func("page_down_action")
 hotkey_array["*x"] := Func("volume_down_action")
 hotkey_array["*c"] := Func("volume_up_action")
+hotkey_array["*g"] := Func("escape_action")
 
 hotkey_array["*space"] := Func("underscore_action")
 
@@ -137,4 +138,7 @@ send {blind}{PgDn}
 return 
 }
 
-
+escape_action(){
+send {Escape}
+return
+}
