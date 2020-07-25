@@ -26,3 +26,20 @@ return
 ; Stops parentheses being sent when shift is used normally
 RShift & F13::return
 LShift & F13::return
+
+
+RShift & LButton::return
+RShift & RButton::return
+RShift & MButton::return
+RShift & WheelDown::return
+RShift & WheelUp::return
+RShift & WheelLeft::return
+RShift & WheelRight::return
+
+LShift & LButton::return
+LShift & RButton::return
+LShift & MButton::return
+LShift & WheelDown::return
+LShift & WheelUp::return
+LShift & WheelLeft::return
+LShift & WheelRight::return
