@@ -6,7 +6,7 @@ The [AutoHotKey](https://www.autohotkey.com/) scripts that I use for software de
 I found that a lot of keys that you commonly have to press for software development, like parentheses or equals, were
 awkward to reach while writing code.
 
-I also didn't like having to move my left hand to the arrow keys for quick navigation.
+I also didn't like having to move my right hand to the arrow keys for quick navigation.
 
 These scripts are my solution to these inconveniences.
 
