@@ -16,6 +16,7 @@ hotkey_array["*o"] := Func("ctrl_right_action")
 hotkey_array["*h"] := Func("backspace_action")
 hotkey_array["*;"] := Func("delete_action")
 hotkey_array["*f"] := Func("equals_action")
+hotkey_array["*d"] := Func("dash_action")
 hotkey_array["*v"] := Func("capslock_action")
 hotkey_array["*z"] := Func("play_pause_action")
 hotkey_array["*y"] := Func("page_up_action")
@@ -97,6 +98,11 @@ return
 
 equals_action(){
 send {blind}=
+return
+}
+
+dash_action(){
+send {blind}-
 return
 }
 
